@@ -1,9 +1,8 @@
 $(function(){
-
-   $("#subnav_box dl").hover(function(){
-		$(this).find(".subnav").show();
+   $("#subnav_box>dl").hover(function(){
+		$(this).addClass('hover').find(".subnav").show();
 	},function(){
-		$(this).find(".subnav").hide();
+		$(this).removeClass('hover').find(".subnav").hide();
 	});
 
 /* 首页大屏广告效果 */

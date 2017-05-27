@@ -9,7 +9,7 @@ header{
 #header_bottom{
 	height: 130px;
 }
-#header_top,#header_bottom,nav #nav_box{
+#header_top,#header_bottom,nav #nav_box,#activities_box,#main_box{
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -86,9 +86,10 @@ nav{
 #subnav_box{
 	width: 220px;
 	height: 520px;
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.6);
 	position: relative;
 	z-index: 100;
+	box-shadow: 0 0 2px #ddd;
 }
 #subnav_box>dl>dt>a{
 	display: inline-block;
@@ -98,9 +99,17 @@ nav{
 	text-align: center;
 }
 #subnav_box>dl>dd>a{
-	width: 160px;
+	width: 158px;
 	height: 40px;
 	display: inline-block;
+}
+#subnav_box>dl{
+	height: 40px;
+}
+.hover{
+	background-color: #fff;
+	z-index: 200;
+	border-left: 2px solid #e7141a;
 }
 #subnav_box>dl>dd>.subnav{
 	width: 780px;
@@ -110,7 +119,7 @@ nav{
 	top: 0px;
 	left: 220px;
 	display: none;
-	z-index: 100;
+	border-bottom: 1px solid #eee;
 }
 #subnav_box>dl>dd>.subnav>dt{
 	width: 140px;
@@ -167,4 +176,23 @@ content #banner div a.choose{
 }
 content #banner div a.point{
 	margin-right:0px;
+}
+#activities,#main{
+	background-color: #f5f5f5;
+}
+#activities_box{
+	border: 1px solid black;
+	height: 180px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#main_box{
+	height: 2000px;
+}
+#main_box>p{
+	font-size: 18px;
+	display: inline-block;
+	height: 24px;
+	border-left: 6px solid #e7141a;
+	padding-left: 10px;
 }
