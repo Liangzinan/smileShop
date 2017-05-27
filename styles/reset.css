@@ -1,0 +1,28 @@
+body{
+	font: 12px "微软雅黑",arial;
+	color: #444;
+}
+body,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+	padding: 0px;
+}
+ul,li{
+	list-style: none;
+}
+input{
+	border: none;
+	padding: 0px;
+}
+.lf{
+	float: left;
+}
+.rf{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
